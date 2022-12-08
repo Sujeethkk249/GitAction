@@ -1,0 +1,10 @@
+name: EgWorkFlow
+on: workflow_dispatch
+jobs:
+  firstJob:
+    runs-on: ubuntu
+    steps:
+      - name: Print HI
+        run: echo "HI"
+      - name: Print Bye
+        run: echo "Bye"
