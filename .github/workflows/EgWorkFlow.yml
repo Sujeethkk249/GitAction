@@ -2,7 +2,7 @@ name: EgWorkFlow
 on: workflow_dispatch
 jobs:
   firstJob:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Print HI
         run: echo "HI"
