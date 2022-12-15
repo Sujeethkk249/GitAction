@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Search for a String
-        run: echo "${{contains('Hello world', 'llo') returns true}}"
+        run: echo "${{contains('Hello world', 'llo')}}"
       - run: echo "#{{github}}"
