@@ -1,0 +1,9 @@
+name: expressions and context Workflow
+on: workflow_dispatch
+jobs:
+  expressions and context :
+    runs-on: ubuntu-latest
+    steps:
+      - name: Search for a String
+        run: echo "${{contains('Hello world', 'llo') returns true}}"
+      - run: echo "#{{github}}"
