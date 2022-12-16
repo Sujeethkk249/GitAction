@@ -1,0 +1,9 @@
+name: Shell
+on: workflow_dispatch
+jobs:
+  ShellJob:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Display the path
+      run: echo %PATH%
+      shell: cmd
