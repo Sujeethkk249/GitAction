@@ -9,3 +9,5 @@ jobs:
     with:
       RandomId: 1234567 
       character: asdf
+  WithoutpassingValue:
+    uses: ./.github/workflows/callable.yaml
