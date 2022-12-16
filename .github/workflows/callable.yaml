@@ -2,7 +2,7 @@ on:
   workflow_call:
     inputs:
       RandomId:
-        required: true
+        required: false
         type: string
         default: 1111111
       character: 
