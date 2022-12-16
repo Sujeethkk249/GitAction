@@ -1,0 +1,11 @@
+name: Reusable Workflow caller
+
+on:
+  workflow_dispatch:
+
+jobs:
+  passValue:
+    uses: .github/workflows/callable.yaml
+    with:
+      RandomId: 1234567 
+      charater: asdf
