@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Display the path
-      run: echo %PATH%
-      shell: cmd
+      run: echo $PATH
+      shell: bash
