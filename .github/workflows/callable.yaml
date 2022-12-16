@@ -4,10 +4,11 @@ on:
       RandomId:
         required: true
         type: string
+        default: 1111111
       character: 
         type: string
 jobs:
   sendoutput:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "${{inputs.RandomId}}
+      - run: echo "${{inputs.RandomId}}"
