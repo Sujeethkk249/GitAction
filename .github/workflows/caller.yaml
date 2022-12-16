@@ -5,7 +5,7 @@ on:
 
 jobs:
   passValue:
-    uses: .github/workflows/callable.yaml
+    uses: ./.github/workflows/callable.yaml
     with:
       RandomId: 1234567 
-      charater: asdf
+      character: asdf
