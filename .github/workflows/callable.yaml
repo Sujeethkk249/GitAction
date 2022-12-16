@@ -1,0 +1,13 @@
+on:
+  workflow_call:
+    inputs:
+      RandomId:
+        required: true
+        type: string
+      character: 
+        type: string
+jobs:
+  sendoutput:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "${{inputs.RandomId}}
